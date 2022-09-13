@@ -70,7 +70,7 @@ pipeline {
         }
         stage('test') {
             input {
-                message 'About to test the application'
+                message 'About to test the application-updated'
                 ok 'Ok'
             }
             steps {
